@@ -122,13 +122,6 @@
           that such additional attribution notices cannot be construed
           as modifying the License.
 
-      You may add Your own copyright statement to Your modifications and
-      may provide additional or different license terms and conditions
-      for use, reproduction, or distribution of Your modifications, or
-      for any such Derivative Works as a whole, provided Your use,
-      reproduction, and distribution of the Work otherwise complies with
-      the conditions stated in this License.
-
    5. Submission of Contributions. Unless You explicitly state otherwise,
       any Contribution intentionally submitted for inclusion in the Work
       by You to the Licensor shall be under the terms and conditions of
@@ -193,7 +186,7 @@
 -->
 <html lang="en">
 <head>
-  <title>PUBG Odisha | PlayerUnknown's Battlegrounds</title>
+  <title>PUBG Odisha | PlayerUnknown's Battlegrounds Mobile</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -268,8 +261,8 @@
                   <p>20 Teams • 80 Players</p>
                 </a>
                 <a href="#0" style="color: white;">
-                  <h3>✅ Emulators Allowed ✅</h3>
-                  <p>Tencent Gaming Buddy • Bluestacks</p>
+                  <h3>✅ Emulator Allowed ✅</h3>
+                  <p>Tencent Gaming Buddy</p>
                 </a>
                 <a href="#0" style="color: white;">
                   <h3>🌿 Battle Info 🌿</h3>
@@ -365,8 +358,8 @@
                 <div class="modal">
                   <div class="modal--information">
                     <p>ITER, SOA Campus 1</p>
-                	<p>Khandagiri, Bhubaneswar, Odisha</p>
-                	<br/>
+                  <p>Khandagiri, Bhubaneswar, Odisha</p>
+                  <br/>
                   </div>
                   <ul class="modal--options">
                     <li><a href="tel:+918093503424">Call Us</a></li>
@@ -473,7 +466,9 @@
   </ul>
 </div>
 <script>
-  if (window.location.protocol !== 'https:') {
+  if (window.location.protocol !== 'file:///') {
+    console.log('Dev');
+  } else if (window.location.protocol !== 'https:') {
     window.location = 'https://' + window.location.hostname + window.location.pathname + window.location.hash;
   }
 </script>
