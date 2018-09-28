@@ -1,7 +1,5 @@
 // @codekit-prepend "/vendor/hammer-2.0.8.js";
-if (window.location.protocol !== 'https:') {
-    window.location = 'https://' + window.location.hostname + window.location.pathname + window.location.hash;
-}
+
 $( document ).ready(function() {
 
   // DOMMouseScroll included for firefox support
